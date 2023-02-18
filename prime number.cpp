@@ -1,4 +1,3 @@
-//bujte hobe kalke dekhbo abar
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,21 +19,25 @@ typedef unsigned long long int  llu;
 
 bool prime (int a)
 {
-    if(a<2)return false;
+    if(a==1)return false;
     if(a<=3)return true;
     if(a%2==0)return false;
     for(int i=3; i <=sqrt(a); i+=2)
     {
         if(a%i==0)return false;
     }
+    return true;
 }
 int main()
 {
-    int a;
-    cin>>a;
-
-    if(prime(a)==true)cout<<"Prime"<<endl;
-    else cout<<"Not prime"<<endl;
-
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int a;
+        cin>>a;
+        if(prime(a)==true)cout<<"yes"<<endl;
+        else cout<<"no"<<endl;
+    }
 
 }
