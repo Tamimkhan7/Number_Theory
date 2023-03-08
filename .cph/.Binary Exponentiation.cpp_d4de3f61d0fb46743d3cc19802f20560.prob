@@ -1,0 +1,1 @@
+{"name":"Local: Binary Exponentiation","url":"c:\\Users\\HP\\Desktop\\Number Theory in c++\\Binary Exponentiation.cpp","tests":[{"id":1677855713644,"input":"2\n2 9\n2 10","output":"512\n1024"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\Desktop\\Number Theory in c++\\Binary Exponentiation.cpp","group":"local","local":true}
